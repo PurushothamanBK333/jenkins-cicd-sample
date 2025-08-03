@@ -4,22 +4,22 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo '🔨 Building the project...'
-                echo '✅ Build successful.'
+                echo ' Building the project...'
+                echo ' Build successful.'
             }
         }
 
         stage('Test') {
             steps {
-                echo '🧪 Running tests...'
-                echo '✅ All tests passed.'
+                echo ' Running tests...'
+                echo ' All tests passed.'
             }
         }
 
         stage('Deploy') {
             steps {
-                echo '🚀 Deploying the project...'
-                echo '✅ Deployment complete.'
+                echo ' Deploying the project...'
+                echo ' Deployment complete.'
             }
         }
     }
